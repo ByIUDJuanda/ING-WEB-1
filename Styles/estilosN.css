@@ -48,41 +48,71 @@ header nav .main__nav li a {
     color: var(--colorWhite);
 }
 main {
-    font-family: 'Montserrat', sans-serif;
-}
-main .container {
+    width: 800px;
+    height: 800px;
+    margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .form-label {
+    font-size: 13px;
+}
+main .col-md-6,.col-12 {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+main .form-control {
+    width: 525px;
+    border-radius: 100px;
+    box-shadow: 0 1px 6px 0 #0e4962;
+    border-color: #1f418400;
+    border: 1px solid #0e4962;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
     margin-top: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
 }
-
-main .container .post {
-    width: 370px;
-    transition: box-shadow 0.3s ease;
-    background-color: rgb(151, 166, 183);
-    margin: 5rem 0;
-    border-radius: 1rem;
-    padding: 1rem 0;
-    cursor: pointer;
+main .form-control:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #0d44b100;
+    border: 1px solid #0e4962;
 }
-main .container .post img {
-    width: 350px;
-    margin-left: 11px;
-    margin-right: 15px;
+main .col-12 button {
+    width: 530px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-section article:hover {
-    box-shadow: 0 5rem 10rem rgba(53, 71, 75, 0.3);
+main .col-12 button {
+    width: 6rem;
+    height: 30px;
+    background-color: #f2f2f2;
+    border: 1px solid #0e4962;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 470px;
 }
-
-section article h2{
-    margin: 2rem;
-    font-size: 24px;
-}
-Section article p {
-    margin: 2rem;
-    font-size: 16px;
+main .col-12 button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
 }
 footer {
     width: 100%;
