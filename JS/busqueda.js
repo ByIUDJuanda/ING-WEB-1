@@ -1,11 +1,11 @@
-const listaRestaurantes = ["Restaurante El Argentino", "Restaurante Elegante", "Restaurante Marino", "Restaurante Mexicano"];
+import { listaRestaurantes } from "./clase.js";
 
 const buscar = () => {
     let rest = document.querySelector(".list-rest");
     let verificar = false;
 
     for (let i = 0; i < listaRestaurantes.length; i++) {
-        if (rest.value === listaRestaurantes[i]) {
+        if (rest.value === listaRestaurantes[i].titulo) {
             verificar = true
         }
     }
@@ -20,3 +20,5 @@ const buscar = () => {
         titulo.setItem('titulo', nombre);
     }
 }
+
+document.getElementById("boton").addEventListener("click", buscar);

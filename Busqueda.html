@@ -35,11 +35,11 @@
     <main class="busqueda">
       <div class="main-container">
         <section class="main-logo">
-          <img src="Images/Lupa.png" alt="" />
+          <img src="Images/Lupa.png" alt=""/>
         </section>
         <section class="main-input">
           <div class="main-input-container">
-            <input list="restaurantes" class="list-rest" />
+            <input list="restaurantes" class="list-rest"/>
             <datalist id="restaurantes">
               <option value="Restaurante El Argentino"></option>
               <option value="Restaurante Elegante"></option>
@@ -48,9 +48,9 @@
             </datalist>
           </div>
         </section>
-        <section class="main-button" onclick="buscar()">
+        <section class="main-button">
           <div>
-            <button>Buscar</button>
+            <input type="submit" value="Buscar" id="boton">
           </div>
         </section>
       </div>
@@ -86,6 +86,6 @@
         </ul>
       </section>
     </footer>
-    <script src="./JS/busqueda.js"></script>
+    <script src="./JS/busqueda.js" type="module"></script>
   </body>
 </html>
