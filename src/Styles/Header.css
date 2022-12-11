@@ -1,0 +1,44 @@
+:root {
+    --colorBlue: #0e4962;
+    --colorRed: #bf2b36;
+    --colorWhite: white;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+    background-color: var(--colorBlue);
+    height: 130px;
+    color: var(--colorRed);
+}
+div #main_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+div #main_title img {
+    width: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 40%;
+}
+div #main_title h1 {
+    font-weight: normal;
+}
+div nav {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+div nav .main__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    list-style: none;
+}
+div nav .main__nav li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--colorWhite);
+}

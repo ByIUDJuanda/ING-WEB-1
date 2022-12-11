@@ -1,0 +1,28 @@
+{
+    "listaRestaurantes": [
+        {
+            "nombre": "Restaurante El Argentino",
+            "slogan": "Distinguido restaurante con culinaria especializada en gustosos platos con ingrediente principal, la carne, la especialidad de la casa.",
+            "imagen":"../Images/R_Argentino.png",
+            "descripcion": "En este establecimiento nos sentimos orgullosos de hacerle degustar a nuestros comensales la jugosa experiencia de consumir la magnifica carne argentina que ha sido simpre tan distinguida, donde se sabe que cada gramo es una sensación inigualable."
+        },
+        {
+            "nombre": "Restaurante Elegante", 
+            "slogan":"Te mereces lo mejor de esta vida y tu apetito también.", 
+            "imagen": "../Images/R_Elegante.PNG", 
+            "descripcion": "La característica 'cocina creativa' deja mucho qué pensar. Pues entrar a El Cielo es encontrarse literalmente con eso: platos nuevos, originales y creaciones del chef, quién crea sopas, carnes, pescados y postres con diferentes productos, como por ejemplo su postre de limón. El diseño de El Cielo te hará sentir tranquilo, ya que se encuentra decorado con árboles que le dan una sensación natural."
+        },
+        {
+            "nombre": "Restaurante Marino", 
+            "slogan": "El sabor inigualable de las aguas marinas.", 
+            "imagen": "../Images/R_Marino.png", 
+            "descripcion": "Con una larga trayectoria gastronómica internacional. Frutos del Mar Patrimonio gastronómico de la Ciudad es un lugar acogedor con un equipo de colaboradores profesionales idóneos en la empresa. Este restaurante especializado en comida de mar, sobresale por sus exquisitos pescados en varias preparaciones, sus mariscos y sus vinos."
+        },
+        {
+            "nombre": "Restaurante Mexicano", 
+            "slogan": "Conoceras la delicia del verdadero picante.",
+            "imagen": "../Images/R_Mexicano.png", 
+            "descripcion": "La plaza mayor de la ciudad de México es la que le da el nombre a este restaurante que ofrece a sus visitantes la autentica tradición gastronómica de esta nación. Tampico, Puebla y Veracruz son algunos de los estados que inspiran las recetas (preparadas con ingredientes importados) y la decoración de sus espacios ambientados con zócalos, máscaras y cerámicas que evocan lo mejor del país de los mariachis y corridos."
+        }
+    ]
+}
