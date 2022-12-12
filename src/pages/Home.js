@@ -1,8 +1,8 @@
 import React from 'react';
 import data from "../helpers/data.json";
-import Restaurante from "./Restaurante";
+import Restaurante from "../components/Restaurante";
 
-function Listado() {
+function Home() {
     return (
         <div className='container'>
             {data.listaRestaurantes.map(el => 
@@ -11,4 +11,4 @@ function Listado() {
         </div>
     );
 }
-export default Listado;
+export default Home;

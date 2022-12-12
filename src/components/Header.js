@@ -11,16 +11,16 @@ function Header() {
             <nav>
                 <ul className="main__nav">
                     <li>
-                        <a href='#'>Home</a>
+                        <a href='/home'>Home</a>                                                                        
                     </li>
                     <li>
-                        <a href='#'>Restaurante</a>
+                        <a href='/restaurante'>Restaurante</a>
                     </li>
                     <li>
-                        <a href='#'>Busqueda</a>
+                        <a href='/buscar'>Busqueda</a>
                     </li>
                     <li>
-                        <a href='#'>Nuevo</a>
+                        <a href='/nuevo'>Nuevo</a>
                     </li>
                 </ul>
             </nav>

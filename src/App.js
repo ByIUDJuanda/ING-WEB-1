@@ -1,6 +1,7 @@
-import './App.css';
+// import './App.css';
 import Header from "./components/Header";
-import Listado from "./components/Listado";
+import Rutas from "./components/Rutas";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -8,8 +9,12 @@ function App() {
       <header>
         <Header/>
       </header>
-      <main></main>
-      <footer></footer>
+      <main>
+        <Rutas />
+      </main>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
