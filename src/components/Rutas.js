@@ -6,16 +6,16 @@ import Nuevo from "../pages/Nuevo";
 
 function Rutas() {
  return (
-    <div>
+    <>
         <Router>
             <Routes>
-                <Route exact path="/home" element={<Home/>} />
+                <Route exact path="/" element={<Home/>} />
                 <Route exact path="/buscar" element={<Busqueda/>}/>
                 <Route exact path="/nuevo" element={<Nuevo/>}/>
                 <Route path="*" element={<Error404/>}/>
             </Routes>
         </Router>
-    </div>
+    </>
  );
 }
 export default Rutas;

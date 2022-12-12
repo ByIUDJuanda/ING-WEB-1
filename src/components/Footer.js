@@ -1,21 +1,21 @@
-import "../Styles/Footer.css";
+// import "../Styles/Footer.css";
 
 function Footer() {
     return(
-        <div className="footer">
+        <>
             <section>
                 <ul class="footer-left">
                     <li>
-                        <a href="">Publicidad</a>
+                        <a href="#">Publicidad</a>
                     </li>
                     <li>
-                        <a href="">Negocios</a>
+                        <a href="#">Negocios</a>
                     </li>
                     <li>
-                        <a href="">Acerca de</a>
+                        <a href="#">Acerca de</a>
                     </li>
                     <li>
-                        <a href="">Contactanos ahora</a>
+                        <a href="#">Contactanos ahora</a>
                     </li>
                 </ul>
             </section>
@@ -32,7 +32,7 @@ function Footer() {
                     </li>
                 </ul>
             </section>
-        </div>
+        </>
     );
 }
 export default Footer;

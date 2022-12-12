@@ -11,10 +11,10 @@ function Header() {
             <nav>
                 <ul className="main__nav">
                     <li>
-                        <a href='/home'>Home</a>                                                                        
+                        <a href='/'>Home</a>                                                                        
                     </li>
                     <li>
-                        <a href='/restaurante'>Restaurante</a>
+                        <a href='#'>Restaurante</a>
                     </li>
                     <li>
                         <a href='/buscar'>Busqueda</a>

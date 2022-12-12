@@ -3,12 +3,12 @@ import React from 'react';
 
 function Restaurante(props) {
     return (
-        <div className='post'>
+        <article className='post'>
             <h2>{props.el.nombre}</h2>
             <p>{props.el.slogan}</p>
             <img src={props.el.imagen} alt='Imagen del restaurante'/>
             <p>{props.el.descripcion}</p>
-        </div>
+        </article>
     );
 }
 export default Restaurante;

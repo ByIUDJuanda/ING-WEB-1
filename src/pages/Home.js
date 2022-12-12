@@ -4,11 +4,11 @@ import Restaurante from "../components/Restaurante";
 
 function Home() {
     return (
-        <div className='container'>
+        <section className='container'>
             {data.listaRestaurantes.map(el => 
                 <Restaurante el={el}/>
             )}
-        </div>
+        </section>
     );
 }
 export default Home;
