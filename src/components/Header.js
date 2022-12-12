@@ -1,9 +1,9 @@
 import React from 'react';
-import "../Styles/Header.css"
+// import "../Styles/Header.css"
 
 function Header() {
     return (
-        <div>
+        <>
             <div id="main_title">
                 <img src="../Images/IUD.png" alt="Logo de IU" id="logo"/>
                 <h1>Restaurante IU</h1>
@@ -24,7 +24,7 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </>
     );
 }
 export default Header;

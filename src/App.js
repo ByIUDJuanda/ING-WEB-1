@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Rutas from "./components/Rutas";
 import Footer from "./components/Footer";
 
+import "./Styles/desktop.css";
+
 function App() {
   return (
     <div className="App">
